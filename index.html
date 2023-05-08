@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Ideathon 2023</title>
     <link rel="stylesheet" href="style.css">
    
@@ -15,6 +16,20 @@
 <body>
     <!--------------------------------------- navbar---------------------------------------------------->
     
+    <div class="topnav" id="myTopnav">
+        <div class="leftnav">
+            <a href="#"><img src="./ecell-logo.jpg" alt="ecell-logo" class="ecell-logo"></a>
+            <a href="#home" class="navlink">Home</a>
+            <a href="#ideathon" class="navlink">What is Ideathon</a>
+            <a href="#guests" class="navlink">Our Guests</a>
+            <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="right-nav">
+            <a href="#" class="btn">Register Now</a>
+        </div>
+    </div>
     
     <!--------------------------------------- navbar ends---------------------------------------------------->
     
@@ -135,7 +150,7 @@
     
     <!---------------------------------------guests section---------------------------------------------------->
     
-    <section class="sec1">
+    <section class="sec1" id="guests">
         <div class="div1">
             <h2 class="mainhead black">OUR GUESTS</h2>
             <section class="card">
@@ -149,6 +164,8 @@
             </section>
         </div>
     </section>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
