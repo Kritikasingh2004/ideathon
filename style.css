@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+:root{
+    --navyblue: #000080;
+}
+
 /*         --------------about section------------ */
 
 .div0 {
@@ -89,12 +93,12 @@ body {
   width: 100%;
   margin: 0 0 36px 0;
   display: block;
-  color: #2c4bff;
+  color: var(--navyblue);
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.5px;
   line-height: 34.2px;
-  text-decoration: none solid rgb(44, 75, 255);
+  text-decoration: none;
   text-align: left;
 }
 
@@ -116,7 +120,7 @@ body {
   background-color: #f4f4f4;
 }
 
-/*--------------------------button---------------------- */
+/*         --------------------------button---------------------- */
 
 .btn-ctn {
   width: 100%;
@@ -133,7 +137,7 @@ body {
   text-decoration: none solid rgb(255, 255, 255);
   text-align: center;
   white-space: nowrap;
-  background-color: #2c4bff;
+  background-color: var(--navyblue);
   color: #fff;
   cursor: pointer;
   border: 2px solid #2c4cff00;
@@ -145,7 +149,7 @@ body {
 
 .btn:hover {
   background-color: #2c4cff00;
-  border-color: #2c4bff;
+  border-color: var(--navyblue);
   color: #000000;
 }
 
@@ -157,10 +161,12 @@ body {
 .red:hover {
   background-color: #fd3755;
   color: #fff;
+  border-color: #2c4bff;
 }
 
 .hollow {
   border-color: #f4f4f4;
+  background-color: #2c4bff;
 }
 
 .hollow:hover {
@@ -168,7 +174,7 @@ body {
 }
 
 .blue {
-  border-color: #2c4bff;
+  border-color: var(--navyblue);
   background-color: #fff;
   color: #000000;
   margin-left: 7px;
@@ -219,7 +225,7 @@ body {
   }
   
   .active {
-    background-color: #2c4bff;
+    background-color: var(--navyblue);
     color: #fff;
     border-radius: 10px;
   }
@@ -231,7 +237,7 @@ body {
   .ecell-logo {
     /* background: black; */
     width: 60px;
-    color: blue;
+    color: var(--navyblue);
     border-radius: 50%;
     margin-right: 10px;
   }
@@ -263,7 +269,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 48px;
   font-weight: 700;
-  color: #2c4bff;
+  color: var(--navyblue);
   letter-spacing: 0.1px;
   line-height: 64px;
 }
@@ -322,7 +328,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.1px;
   line-height: 25.6px;
-  color: #2c4bff;
+  color: var(--navyblue);
 }
 .card-content p {
   margin: 0;
@@ -334,13 +340,14 @@ body {
 }
 
 .card-content img {
-  width: 100%;
+  width: 80%;
 }
 
 .black {
   width: 100%;
   margin: 0;
-  color: #2c4bff;
+  color: var(--navyblue);
+  margin-bottom: 30px;
 }
 
 /*-----------------------------------------------footer section-------------------------------------*/
@@ -348,7 +355,7 @@ body {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 10px;
-  background-color: #2c4bff;
+  background-color: var(--navyblue);
   display: flex;
   flex-direction: column;
   align-items: center;
