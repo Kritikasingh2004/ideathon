@@ -15,16 +15,8 @@
             padding: 0;
             margin: 0;
         }
-
-        /* .sec0 {
-            height: 80px !important;
-            width: 1519.2px;
-            padding: 35px 0 35px 0;
-            background-color: #fefefe;
-            background-position: 0% 0%;
-            color: #000000;
-            display: block;
-        }*/
+        
+/*         --------------about section------------ */
 
         .div0 {
             height: 600px;
@@ -48,6 +40,30 @@
             margin: 0;
             padding: 50px 0;
         }
+        
+        .ideathon {
+            background: url(background.png);
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+
+        }
+        
+        .description {
+            width: 100%;
+            margin: 0 0 36px 0;
+            font-size: 19.6px;
+            letter-spacing: 0.1px;
+            line-height: 37.24px;
+            text-decoration: none solid rgb(0, 0, 0);
+            text-align: left;
+        }
+        
+        .about {
+            color: #e9e9e9;
+        }
+        
+/*         -----------------round section--------------- */
 
         .sec1 {
             height: 400px;
@@ -100,16 +116,13 @@
             text-align: left;
             display: block;
         }
-
-        .description {
-            width: 100%;
-            margin: 0 0 36px 0;
-            font-size: 19.6px;
-            letter-spacing: 0.1px;
-            line-height: 37.24px;
-            text-decoration: none solid rgb(0, 0, 0);
-            text-align: left;
+        
+        
+        .spl-sec {
+            background-color: #F4F4F4;
         }
+
+/*         --------------------------button---------------------- */
 
         .btn-ctn {
             width: 100%;
@@ -142,22 +155,6 @@
             color: #000000;
         }
 
-        .spl-sec {
-            background-color: #F4F4F4;
-        }
-
-        .about {
-            color: #e9e9e9;
-        }
-
-        .ideathon {
-            background: url(background.png);
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-
-        }
-
         .red {
             background-color: #e97284;
             margin-right: 5px;
@@ -180,6 +177,147 @@
             color: #000000;
             padding: 0;
         }
+        
+/*         -----------------------navbar----------------------- */
+        
+           .page1 {
+            display: block;
+            background-color: white;
+            height: fit-content;
+            padding-top: 100px;
+            width: 100%;
+        }
+        .page1-content {
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            width: auto;
+            height: fit-content;
+            padding: 2rem;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            flex-direction: row;
+        }
+        .page1-content .content1 {
+            /* Font & Text */
+            font-family: Roboto, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 0.1px;
+            line-height: 30px;
+            text-decoration: none solid rgb(0, 0, 0);
+
+
+            /* Box */
+            height: 362.788px;
+            width: fit-content;
+            padding-left: 20px;
+            padding-right: 5px;
+
+
+            /* Positioning */
+            position: static;
+            display: block;
+            clear: none;
+            z-index: auto;
+            margin-left: 50px;
+        }
+
+        .content1 h1 {
+            /* Font & Text */
+            font-family: Poppins, sans-serif;
+            font-size: 48px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 700;
+            letter-spacing: 0.1px;
+            line-height: 64px;
+            text-decoration: none solid rgb(0, 0, 0);
+            text-indent: 0px;
+            text-transform: none;
+            vertical-align: baseline;
+            white-space: normal;
+            word-spacing: 0px;
+        }
+
+
+        .content1 p {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.5rem;
+            font: bolder;
+            color: rgb(29, 29, 29);
+        }
+
+        .page1-content .content1::-webkit-scrollbar {
+            display: none;
+        }
+
+        .content1-buttons {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .content1-buttons button {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            height: fit-content;
+            width: fit-content;
+            padding: 7px 24px;
+            background-color: blue;
+            font-weight: 550;
+            color: rgb(255, 255, 255);
+            font-size: 1.1rem;
+            text-decoration: none;
+            margin: 30px;
+            margin-left: 40px;
+            cursor: pointer;
+            transition: all ease-in-out 0.6s;
+            border: solid 1px blue;
+            border-radius: 6px;
+            box-shadow: rgba(35, 31, 32, 0.2) 0px 18px 30px;
+        }
+
+        .content1-buttons button:hover {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            border: solid 1px blue;
+        }
+
+        .content1-buttons a {
+            height: fit-content;
+            width: fit-content;
+            padding: 4px 24px;
+            color: rgb(30, 0, 255);
+            font-size: 1.1rem;
+            text-decoration: none;
+            margin: 30px;
+            margin-left: 30px;
+            cursor: pointer;
+            transition: all ease-in-out 0.3s;
+            border: solid 1px blue;
+            border-radius: 6px;
+            box-shadow: rgba(35, 31, 32, 0.2) 0px 18px 30px;
+        }
+
+        .content1-buttons a:hover {
+            color: black;
+            background-color: rgb(171, 182, 229);
+        }
+
+        .page1-content .page1-content-img {
+            display: block;
+            height: 486px;
+            width: 687px;
+            border: solid 0px black;
+            box-shadow: 0px 0px 28px 4px rgb(69, 69, 69);
+            margin-left: 100px;
+        }
+
+        .page1-content .page1-content-img img {
+
+            height: 486px;
+            width: 687px;
+        }
+        
+        
 
         @media (max-width: 1230px) {
 
@@ -194,7 +332,7 @@
             .sec2 {
                 width: 100%;
             }
-
+/*-------------media querry--------------*/
             .div0 {
                 height: 810px;
                 padding: 0 44px;
@@ -263,6 +401,34 @@
 </head>
 
 <body>
+    <!--------------------------------------- navbar---------------------------------------------------->
+        <section class="page1">
+        <nav>
+        </nav>
+        <div class="page1-content">
+            <section class="content1">
+                <h1>
+                    Ideathons are intensive brainstorming events
+                </h1>
+                <p>
+                    skills and interests converge to diagnose predefined problems, 
+                    identify the best opportunities 
+                    and ideate the most viable solution. An ideathon may require just
+                    ideas, a solution, a roadmap or an actionable plan.
+                </p>
+                <section class="content1-buttons">
+                    <button>REGISTER NOW</button>
+                    <a href="#"> Learn More > </a>
+                </section>
+            </section>
+            <section class="page1-content-img">
+                <img src="event.png">
+            </section>
+        </div>
+    </section>
+    <!--------------------------------------- navbar ends---------------------------------------------------->
+    
+    <!---------------------------------------about section---------------------------------------------------->
     <section class="ideathon">
         <div class="div0">
             <h2 class="mainhead">WHAT IS IDEATHON?</h2>
@@ -290,6 +456,11 @@
             </section>
         </div>
     </section>
+    
+    <!---------------------------------------about section ends---------------------------------------------------->
+    
+    <!---------------------------------------rounds section---------------------------------------------------->
+    
     <section class="sec1 spl-sec">
         <div class="div1">
             <section class="sec2">
@@ -337,6 +508,11 @@
             <img src="">
         </div>
     </section>
+    
+    <!---------------------------------------rounds section---------------------------------------------------->
+    
+    <!---------------------------------------guests section---------------------------------------------------->
+    
     <section class="sec1">
         <div class="div1">
             <h2 class="mainhead black">OUR GUESTS</h2>
@@ -351,11 +527,6 @@
             </section>
         </div>
     </section>
-    <!-- <section class="sec0">
-        <div class="div0">
-            <a href="#" class="btn know-more">KNOW MORE >>></a>
-        </div>
-    </section> -->
 </body>
 
 </html>
