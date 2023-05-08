@@ -179,6 +179,148 @@
                 height: 550px;
             }
         }
+        
+        
+        
+        
+        .page1 {
+            display: block;
+            background-color: white;
+            height: fit-content;
+            padding-top: 100px;
+            width: 100%;
+        }
+        .page1-content {
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            width: auto;
+            height: fit-content;
+            padding: 2rem;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            flex-direction: row;
+        }
+        .page1-content .content1 {
+            /* Font & Text */
+            font-family: Roboto, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 0.1px;
+            line-height: 30px;
+            text-decoration: none solid rgb(0, 0, 0);
+
+
+            /* Box */
+            height: 362.788px;
+            width: fit-content;
+            padding-left: 20px;
+            padding-right: 5px;
+
+
+            /* Positioning */
+            position: static;
+            display: block;
+            clear: none;
+            z-index: auto;
+            margin-left: 50px;
+        }
+
+        .content1 h1 {
+            /* Font & Text */
+            font-family: Poppins, sans-serif;
+            font-size: 48px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 700;
+            letter-spacing: 0.1px;
+            line-height: 64px;
+            text-decoration: none solid rgb(0, 0, 0);
+            text-indent: 0px;
+            text-transform: none;
+            vertical-align: baseline;
+            white-space: normal;
+            word-spacing: 0px;
+        }
+
+
+        .content1 p {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.5rem;
+            font: bolder;
+            color: rgb(29, 29, 29);
+        }
+
+        .page1-content .content1::-webkit-scrollbar {
+            display: none;
+        }
+
+        .content1-buttons {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .content1-buttons button {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            height: fit-content;
+            width: fit-content;
+            padding: 7px 24px;
+            background-color: blue;
+            font-weight: 550;
+            color: rgb(255, 255, 255);
+            font-size: 1.1rem;
+            text-decoration: none;
+            margin: 30px;
+            margin-left: 40px;
+            cursor: pointer;
+            transition: all ease-in-out 0.6s;
+            border: solid 1px blue;
+            border-radius: 6px;
+            box-shadow: rgba(35, 31, 32, 0.2) 0px 18px 30px;
+        }
+
+        .content1-buttons button:hover {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            border: solid 1px blue;
+        }
+
+        .content1-buttons a {
+            height: fit-content;
+            width: fit-content;
+            padding: 4px 24px;
+            color: rgb(30, 0, 255);
+            font-size: 1.1rem;
+            text-decoration: none;
+            margin: 30px;
+            margin-left: 30px;
+            cursor: pointer;
+            transition: all ease-in-out 0.3s;
+            border: solid 1px blue;
+            border-radius: 6px;
+            box-shadow: rgba(35, 31, 32, 0.2) 0px 18px 30px;
+        }
+
+        .content1-buttons a:hover {
+            color: black;
+            background-color: rgb(171, 182, 229);
+        }
+
+        .page1-content .page1-content-img {
+            display: block;
+            height: 486px;
+            width: 687px;
+            border: solid 0px black;
+            box-shadow: 0px 0px 28px 4px rgb(69, 69, 69);
+            margin-left: 100px;
+        }
+
+        .page1-content .page1-content-img img {
+
+            height: 486px;
+            width: 687px;
+        }
+        
+        
     </style>
 </head>
 
@@ -188,6 +330,35 @@
             
         </div>
     </section> -->
+    
+    <!-- PAGE1 SECTION (added) -->
+    <section class="page1">
+        <nav>
+        </nav>
+        <div class="page1-content">
+            <section class="content1">
+                <h1>
+                    Ideathons are intensive brainstorming events
+                </h1>
+                <p>
+                    skills and interests converge to diagnose predefined problems, 
+                    identify the best opportunities 
+                    and ideate the most viable solution. An ideathon may require just
+                    ideas, a solution, a roadmap or an actionable plan.
+                </p>
+                <section class="content1-buttons">
+                    <button>REGISTER NOW</button>
+                    <a href="#"> Learn More > </a>
+                </section>
+            </section>
+            <section class="page1-content-img">
+                <img src="event.png">
+            </section>
+        </div>
+    </section>
+    <!-- PAGE1 SECTION -->
+    
+    
     <section class="sec1 spl-sec">
         <div class="div1">
             <section class="sec2">
