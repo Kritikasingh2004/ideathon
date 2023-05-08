@@ -1,6 +1,4 @@
- <style>
-        html,
-        body {
+  html, body {
             font-family: 'Roboto', sans-serif;
             padding: 0;
             margin: 0;
@@ -377,4 +375,3 @@
                 padding: 0px 18px;
             }
         }
-    </style>
