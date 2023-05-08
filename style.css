@@ -109,7 +109,7 @@ body {
 
 .sec1 {
   height: 400px;
-  max-height: 800pxpx;
+  max-height: 800px;
   width: 100%;
   padding: 90px 0 90px 0;
   color: #000000;
@@ -120,7 +120,6 @@ body {
   height: 400px;
   width: auto;
   padding: 0 0 0 136px;
-  max-width: 1248px;
   display: flex;
 }
 
@@ -242,92 +241,207 @@ body {
 
 /*         -----------------------section 1----------------------- */
 
+nav {
+  height: 72px;
+  background-color: #fff;
+}
+
 .page1 {
-  display: block;
-  background-color: white;
-  height: fit-content;
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
   width: 100%;
 }
 .page1-content {
   display: flex;
+  align-items: center;
   background-color: rgb(255, 255, 255);
-  width: auto;
-  height: fit-content;
-  padding: 2rem;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  flex-direction: row;
+  width: 95%;
+  height: 660px;
+  padding-left: 5%;
 }
-.page1-content .content1 {
-  font-family: Roboto, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0.1px;
-  line-height: 30px;
-  text-decoration: none solid rgb(0, 0, 0);
-
-  /* Box */
-  height: 362.788px;
-  width: fit-content;
-  padding-left: 20px;
-  padding-right: 5px;
-
-  /* Positioning */
-  position: static;
-  display: block;
-  clear: none;
-  z-index: auto;
-  margin-left: 50px;
+.content1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
 }
 
 .content1 h1 {
-  /* Font & Text */
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 48px;
-  font-style: normal;
-  font-variant: normal;
   font-weight: 700;
+  color: #2c4bff;
   letter-spacing: 0.1px;
   line-height: 64px;
-  text-decoration: none solid rgb(0, 0, 0);
-  text-indent: 0px;
-  text-transform: none;
-  vertical-align: baseline;
-  white-space: normal;
-  word-spacing: 0px;
 }
 
 .content1 p {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.5rem;
   font: bolder;
-  color: rgb(29, 29, 29);
+  color: #353b5d;
 }
 
-.page1-content .content1::-webkit-scrollbar {
-  display: none;
+.page1-content-img {
+  flex-direction: row;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
 }
 
-.content1-buttons a:hover {
-  color: black;
-  background-color: rgb(171, 182, 229);
-}
-
-.page1-content .page1-content-img {
-  display: block;
-  height: 486px;
-  width: 687px;
-  border: solid 0px black;
+.page1-content-img img {
   box-shadow: 0px 0px 28px 4px rgb(69, 69, 69);
-  margin-left: 100px;
+  width: 80%;
+  height: 452px;
 }
 
-.page1-content .page1-content-img img {
-  height: 486px;
-  width: 687px;
+/* ------------------------guest section------------------------ */
+
+.guest {
+  height: 600px;
 }
+
+.card-container {
+  height: 600px;
+  padding: 0;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  justify-content: center;
+}
+
+.card-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-content strong {
+  margin: 20px 0 3px 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 25.6px;
+  color: #2c4bff;
+}
+.card-content p {
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: #353b5d;
+}
+
+.card-content img {
+  width: 100%;
+}
+
+.black {
+  width: 100%;
+  margin: 0;
+  color: #2c4bff;
+}
+
+/*-----------------------------------------------footer section-------------------------------------*/
+.footer
+{
+    width: 100%; height: fit-content;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.footer .about
+{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+.footer .about h2
+{
+    color: #ffffff;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer .about p
+{
+    width: 600px;
+    color: rgb(213, 213, 213);
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer .social
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    column-gap: 20px;
+    align-items: center;     
+}
+.footer .social div img
+{
+    height: 20px; width: 20px;
+    border: solid 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer .f-h2
+{
+    color: white;
+    margin-top: 50px;
+}
+.footer .Contact-Us 
+{
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.footer .Contact-Us span
+{
+    color: rgb(210, 241, 255);
+}
+
+.footer .Contact-Us div
+{
+    margin-bottom: 10px;
+}
+
+.footer .Contact-Us a
+{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+.footer .copyright
+{
+    margin-top: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1px;
+    word-spacing: 1px;
+    color: grey;
+    text-align: center;
+}
+/*------------------------------------footer section ends--------------------------------------*/
 
 /*-------------media querry--------------*/
 
@@ -339,6 +453,15 @@ body {
 
   .round-img {
     width: 90%;
+  }
+
+  .page1-content-img img {
+    width: 90%;
+    height: 400px;
+  }
+
+  .content1 h1{
+    margin: 0;
   }
 }
 
@@ -353,11 +476,21 @@ body {
   }
 
   .div1 {
-    padding: 0 0 0 50px;
+    padding: 0 50px 0 50px;
   }
 
   .round-img {
     width: 100%;
+  }
+
+  .page1-content-img img {
+    width: 89%;
+    height: 323px;
+  }
+
+  .page1-content {
+    width: 97%;
+    padding-left: 3%;
   }
 }
 
@@ -403,6 +536,43 @@ body {
   .image-section {
     display: none;
   }
+.page1-content-img{
+    display: none;
+}
+
+.content1{
+    width: 100%;
+    height: 500px;
+    padding: 0 4%;
+    justify-content: center;
+}
+
+.content1 h1{
+    margin-bottom: 25px;
+}
+
+.card-container{
+    flex-direction: column;
+    height: 760px;
+    padding: 0;
+}
+
+.guest{
+    height: 760px;
+}
+
+.black{
+    margin-bottom: 32px;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+.card-content strong{
+    margin: 7px 0 3px 0;
+}
+
 }
 
 
